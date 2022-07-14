@@ -153,15 +153,15 @@ header {
         display: table-cell;
     }
 
-    .dsmeta-card {
+    .rafametas-card {
         padding: 35px;
     }
 
-    .dsmeta-sales-table tbody tr {
+    .rafametas-sales-table tbody tr {
         height: 55px;
     }
 
-    .dsmeta-sales-table tbody {
+    .rafametas-sales-table tbody {
         font-size: 18px;
     }
 }
