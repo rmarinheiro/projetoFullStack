@@ -1,15 +1,28 @@
 import NotificationButton from '../notification-button'
 import './styles.css'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 function SalesCard() {
     return (
         <div className="rafametas-card">
             <h2 className="meta-sales-title">Vendas</h2>
             <div>
                 <div className="rafametas-form-control-container">
-                    <input className="rafametas-form-control" type="text" />
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="rafametas-form-control"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
                 <div className="rafametas-form-control-container">
-                    <input className="rafametas-form-control" type="text" />
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="rafametas-form-control"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
             </div>
 
@@ -62,7 +75,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="rafametas-red-btn-container">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
