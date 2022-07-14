@@ -1,10 +1,18 @@
+import Header from "./componentes/Header"
 import NotificationButton from "./componentes/notification-button"
+import SalesCard from "./componentes/SalesCard"
 
 function App() {
   return (
     <>
-     <h1>Ola mundo!!!</h1>
-     <NotificationButton/>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="rafametas-container">
+            <SalesCard/>
+          </div>  
+        </section>
+      </main>
     </>
   )
 }
