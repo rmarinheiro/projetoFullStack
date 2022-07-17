@@ -77,7 +77,7 @@ function SalesCard() {
                                         <td>{x.amount.toLocaleString('pt-br',{ style: 'currency', currency: 'BRL' })}</td>
                                         <td>
                                             <div className="rafametas-red-btn-container">
-                                                <NotificationButton />
+                                                <NotificationButton saleId={x.id} />
                                             </div>
                                         </td>
                                     </tr>
