@@ -74,7 +74,7 @@ function SalesCard() {
                                         <td>{x.sellerName}</td>
                                         <td className="show992">{x.visited}</td>
                                         <td className="show992">{x.deals}</td>
-                                        <td>R$ {x.amount.toLocaleString()}</td>
+                                        <td>R$ {x.amount}</td>
                                         <td>
                                             <div className="rafametas-red-btn-container">
                                                 <NotificationButton saleId={x.id} />
