@@ -13,6 +13,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@types/react-datepicker": "4.4.2",
+    "axios": "0.27.2",
     "react": "^18.2.0",
     "react-datepicker": "4.8.0",
     "react-dom": "^18.2.0"
